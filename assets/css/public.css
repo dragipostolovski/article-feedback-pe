@@ -1,0 +1,40 @@
+.c-question-v1 {
+  margin-bottom: 20px;
+  position: relative; }
+  .c-question-v1 .c-question__inner {
+    padding: 20px;
+    border: 1px solid #F2F2F2;
+    border-left: 1px solid #000; }
+  .c-question-v1 .c-question__title-v1 {
+    display: inline-block;
+    padding: 0 10px 10px 0;
+    position: relative;
+    margin-bottom: 10px; }
+  .c-question-v1 .c-question__loader {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 18px; }
+  .c-question-v1 .c-question__answers img {
+    width: 20px;
+    height: 20px; }
+  .c-question-v1 button {
+    font-family: 'Outfit';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    border-radius: 32px;
+    padding: 12px 24px 12px 24px;
+    color: #fff;
+    border: none;
+    transition: all .2s ease;
+    cursor: pointer;
+    display: inline-block;
+    background: #f22d46; }
+    .c-question-v1 button:hover {
+      box-shadow: 0 0 0 3px rgba(242, 45, 70, 0.5); }
+  .c-question-v1 button.-green {
+    background: #008a00; }
+    .c-question-v1 button.-green:hover {
+      box-shadow: 0 0 0 3px rgba(0, 138, 0, 0.5); }
